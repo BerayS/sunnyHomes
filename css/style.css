@@ -3,67 +3,6 @@ html, body {
     padding: 0;
 }
 
-header {
-    margin: 0;
-    height: 80px;
-    padding: 0;
-    top: 0;
-    width:100%;
-    display: flex; /* make header a flex container so children can stretch to its height */
-    align-items: stretch; /* allow children to fill the header's cross-axis (height) */
-}
-
-.menu-container { 
-    width:100%;
-}
-
-.logo {
-    width:60%;
-    height:100%;
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    float:left;
-}
-
-.logo img {
-    height: 100%;
-    cursor:pointer;
-    margin-left:50px;
-}
-
-
-.navigation {
-    height: 100% !important;
-    display: flex;
-    width:40%;
-    align-items: center; /* vertical centering of nav content */
-    justify-content: center; /* align nav content to the right edge */
-    align-self: stretch; /* ensure this flex item fills the header height */
-    margin-left: auto; /* x`push navigation to the far right of the header */
-}
-
-.navigation ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex; /* lay out list items in a row */
-    align-items: center;
-    gap: 10px; /* space between items */
-}
-
-.navigation ul li {
-    padding: 20px;
-}
-
-.navigation ul li a {
-    text-decoration: none;
-    color: black;
-    font-size: 16px;
-    font-family:Arial;
-    text-transform:uppercase;
-}
-
 .section-a {
     width: 100%;
     height: calc(100vh - 80px); /* half of viewport height */
@@ -190,46 +129,6 @@ footer {
 /* Responsive styling */
 
 @media (max-width: 768px) {
-
-    /* Header and menu responsive styling */
-
-    header {
-        height:100px;
-    }
-
-    header .menu-container {
-        height:100%;
-    }
-    
-    header .menu-container .logo {
-        width:100%;
-        height:70%;
-        align-items: center;
-        justify-content: center;
-    }
-        
-    header .menu-container .logo img {
-        margin:0;
-    }
-
-    header .menu-container .navigation {
-        width:100%;
-        height:35% !important;
-        align-items:center;
-        justify-content: center;
-    }
-
-    header .menu-container .navigation ul {
-        display:flex;
-        width:100%;
-        align-items:center;
-        justify-content:space-around;
-        padding-bottom:20px;
-    }
-
-    header .menu-container .navigation ul li a {
-        font-size:16px;
-    }
 
     /* Section B responsive styling */
 
