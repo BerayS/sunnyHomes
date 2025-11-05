@@ -27,14 +27,14 @@ html, body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-family:arial;
+    font-family:"Montserrat";
 }
 
 .section-a .right-content p {
     width:450px;
     text-align:center;
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 .section-b {
@@ -51,7 +51,7 @@ html, body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-family:arial;
+    font-family:"Montserrat";
 }
 
 .section-b .right-content {
@@ -68,7 +68,7 @@ html, body {
     width:450px;
     text-align:center;
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 
@@ -78,7 +78,7 @@ footer {
     width:100%;
     height:50px;
     text-align:center;
-    font-family:arial;
+    font-family:"Montserrat";
     display:flex;
     align-items: center;
     justify-content: center;
