@@ -1,6 +1,8 @@
 html, body {
     margin: 0;
     padding: 0;
+    /* fallback system font */
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .section-a {
@@ -90,6 +92,7 @@ html, body {
 .header h1 {
     font-family:"Montserrat";
     font-weight:normal;
+    text-align:center;
 }
 
 #testimonials-section {
@@ -133,15 +136,7 @@ html, body {
     box-shadow:0 0 5px #bbb;
 }
 
-.img-1 {
-    background-image: url("../images/client.jpg");
-}
-
-.img-2 {
-    background-image: url("../images/client.jpg");
-}
-
-.img-3 {
+.img-1, .img-2, .img-3 {
     background-image: url("../images/client.jpg");
 }
 
@@ -195,7 +190,7 @@ header h1 {
 }
 
 .previous:hover, .next:hover {
-    background:3px solid gray;
+    background-color: gray;
 }
 
 #controls {
