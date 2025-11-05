@@ -87,32 +87,149 @@ html, body {
     font-family:arial;
 }
 
-.section-d {
-    width: 100% !important;
-    height: 50vh !important;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.section-d .content {
-    display:flex;
-    align-items:center;
-    width:80%;
-    text-align:center;
+.header h1 {
     font-family:arial;
-    gap:30px;
+    font-weight:normal;
 }
 
-.section-d .content .card .stars{
-    padding:20px;
+#testimonials-section {
+    height:auto;
+    background-color:#fff;
+    color:#333;
+
 }
 
+.container {
+    width:1600px;
+    margin: auto;
 
-.section-d .content .card i{
-    font-size:16px;
 }
 
+.subcontainer {
+    width:85%;
+    margin: auto;
+}
+
+.testimionals-wrapper {
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:25px;
+    padding-top: 10px;
+    position:relative;
+}
+
+.slide-img {
+    width:110px;
+    height:110px;
+    margin:auto;
+    border-radius:50%;
+    border: 2px solid lightgray;
+    background-position:center;
+    background-size:cover;
+    box-shadow:0 0 5px #bbb;
+}
+
+.img-1 {
+    background-image: url("../images/client.jpg");
+}
+
+.img-2 {
+    background-image: url("../images/client.jpg");
+}
+
+.img-3 {
+    background-image: url("../images/client.jpg");
+}
+
+header h1 {
+    font-size:2.5rem;
+}
+
+.slider-wrapper {
+    width:100%;
+
+}
+
+.slide {
+    width:100%;
+    text-align:center;
+    line-height:1.5;
+    font-style:italic;
+    padding:0 40px;
+}
+
+.slide h2 {
+    font-family:arial;
+}
+
+.slide p {
+    padding-bottom:40px;
+    font-family:arial;
+}
+
+.previous, .next {
+    padding:2px;
+    width:30px;
+    cursor:pointer;
+    border-radius:50%;
+    outline:none;
+    transition: 0.7s ease-in-out;
+    border:3px solid white;
+    background-color:#fff;
+    box-shadow: 0 0 5px #bbb;
+    position:absolute;
+    top:50%;
+    z-index:1;
+}
+
+.previous {
+    left:0%;
+}
+
+.next {
+    right:0%;
+}
+
+.previous:hover, .next:hover {
+    background:3px solid gray;
+}
+
+#controls {
+    padding-bottom:30px;
+}
+
+#controls i {
+    color:#333;
+    font-size:1rem;
+}
+
+.tns-nav {
+    text-align:center;
+
+}
+
+.tns-nav button {
+    border:none;
+    padding:8px;
+    border-radius:50%;
+    background-color:#333;
+    margin-left:15px;
+}
+
+.tns-nav .tns-nav-active {
+    background-color:gray;
+}
+
+@media(max-width:1600px) {
+    .container {
+        width:100%;
+
+    }
+}
 
 footer {
     background:#000;
